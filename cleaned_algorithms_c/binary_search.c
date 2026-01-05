@@ -1,5 +1,5 @@
 /*
- * ORIGINAL FILE: algorithmic-benchmark-suite-R/legacy_c/raw/buscabinaria.c
+ * ORIGINAL FILE: buscabinaria.c
  * binary search program
  * using shift instead of division by 2
  */

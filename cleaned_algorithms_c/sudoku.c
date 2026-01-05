@@ -1,5 +1,5 @@
 /*
- * ORIGINAL FILE: algorithmic-benchmark-suite-R/legacy_c/raw/sOdoku.c
+ * ORIGINAL FILE: sOdoku.c
  *
  * Solves a 9x9 Sudoku puzzle using iterative backtracking.
  * Fixed (initial) values are preserved using an auxiliary matrix.

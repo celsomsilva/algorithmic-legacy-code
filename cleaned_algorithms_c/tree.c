@@ -1,5 +1,5 @@
 /*
- * ORIGINAL FILE: algorithmic-benchmark-suite-R/legacy_c/raw/arvore.c
+ * ORIGINAL FILE: arvore.c
  *
  * Word Frequency Counter using a Binary Search Tree
  *

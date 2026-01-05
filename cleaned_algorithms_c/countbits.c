@@ -1,5 +1,5 @@
 /*
- * ORIGINAL FILE: algorithmic-benchmark-suite-R/legacy_c/raw/contabits.c
+ * ORIGINAL FILE: contabits.c
  *
  * Counts the number of bits set to 1 in an unsigned integer.
  *

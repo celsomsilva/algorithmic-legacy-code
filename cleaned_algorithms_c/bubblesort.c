@@ -1,5 +1,5 @@
 /*
- * ORIGINAL FILE: algorithmic-benchmark-suite-R/legacy_c/raw/bublesort.c
+ * ORIGINAL FILE: bublesort.c
  *
  * Simple bubble sort implementation.
  * Sorts an integer array in ascending order.

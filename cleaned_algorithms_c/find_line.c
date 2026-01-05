@@ -1,5 +1,5 @@
 /*
- * ORIGINAL FILE: algorithmic-benchmark-suite-R/legacy_c/raw/acha2.c
+ * ORIGINAL FILE: acha2.c
  *
  * Simple text search utility (grep-like).
  * Prints lines from standard input that match a given pattern.

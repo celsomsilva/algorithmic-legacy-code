@@ -1,5 +1,5 @@
 /*
- * ORIGINAL FILE: algorithmic-benchmark-suite-R/legacy_c/raw/bitabit.c
+ * ORIGINAL FILE: bitabit.c
  *
  *
  * Implements set_bits(x, p, n, y):

@@ -1,5 +1,5 @@
 /*
- * ORIGINAL FILE: algorithmic-benchmark-suite-R/legacy_c/raw/itoa.c
+ * ORIGINAL FILE:itoa.c
  *
  * Converts an integer to a string representation.
  * Digits are generated in reverse order and then
