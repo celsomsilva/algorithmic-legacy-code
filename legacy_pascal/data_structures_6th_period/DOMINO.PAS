@@ -1,0 +1,2 @@
+{3) Declare e crie um jogo de dominó, com suas 28 pedras. Cada pedra tem os atributos: lado1(0 a 6), lado2(0 a 6), face(para cima, para baixo)
+4) Use uma lista linear com descritor como estrutura do mesmo. Neste caso, cada nó da lista corresponde a uma pedra}

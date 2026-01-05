@@ -1,0 +1,15 @@
+program Nome_Completo;
+uses crt;
+var
+nome:string;
+sobrenome:string;
+nometodo:string;
+begin
+writeln('Qual o seu primeiro nome?');
+readln(nome);
+writeln('Qual o(s) seu(s) sobrenome(s)?');
+readln(sobrenome);
+nometodo:=nome+' '+sobrenome;
+writeln('Seu nome todo ‚: ',nometodo);
+delay(6000);
+end.

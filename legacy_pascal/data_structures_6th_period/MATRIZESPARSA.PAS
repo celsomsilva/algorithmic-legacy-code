@@ -1,0 +1,1 @@
+{Represente uma matriz esparsa(matriz que a maioria dos elementos sáo nulos) por lista linear com os campos: linha, coluna, valor e prox}

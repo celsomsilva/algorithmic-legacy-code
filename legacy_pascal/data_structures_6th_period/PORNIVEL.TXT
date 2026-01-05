@@ -1,0 +1,17 @@
+Visita-por-niveis
+r=raiz
+Se (r não Nula)
+	Então junta-fila (r)
+Fse
+Enquanto (fila não vazia)
+	Retira -fila (r)
+	Visita-No 
+	Se (r->esq não Nulo)
+ 		Então junta-fila (r->esq)
+	Fse
+Se (r->dir não Nula)
+			Então junta-fila (r->dir)
+		Fse
+Fenquanto
+Fim Algoritmo
+

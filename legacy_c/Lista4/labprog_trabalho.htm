@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-15">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.1.0  (Linux)">
+	<META NAME="CREATED" CONTENT="20050628;6354500">
+	<META NAME="CHANGED" CONTENT="20050629;13223400">
+	<STYLE>
+	<!--
+		@page { size: 21cm 29.7cm; margin-left: 3.18cm; margin-right: 3.18cm; margin-top: 2.54cm; margin-bottom: 2.54cm }
+		P { margin-bottom: 0.21cm }
+		P.recuo-do-corpo-de-texto { margin-left: 0.5cm }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="pt-BR" DIR="LTR">
+<P STYLE="margin-bottom: 0cm">Trabalho de Laborat&oacute;rio de
+Computa&ccedil;&atilde;o (2005/1)</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">Escreva um programa em C que, dado um
+arquivo XML com os hor&aacute;rios do semestre, forne&ccedil;a a
+seguinte resposta, baseado nos par&acirc;metros passados na linha de
+comando:</P>
+<P STYLE="margin-bottom: 0cm">horario [modo] [op&ccedil;&atilde;o]
+&lt;arquivo&gt;</P>
+<P STYLE="margin-bottom: 0cm">onde &lt;arquivo&gt; &eacute; o arquivo
+XML com os hor&aacute;rios e os modos podem ser:</P>
+<P STYLE="margin-bottom: 0cm"><B>-xml </B>
+</P>
+<P CLASS="recuo-do-corpo-de-texto">devolve sempre arquivos XML.</P>
+<P STYLE="margin-bottom: 0cm"><B>-del</B></P>
+<P CLASS="recuo-do-corpo-de-texto">usado para apagar campos do
+arquivo de entrada.</P>
+<P STYLE="margin-bottom: 0cm"><B>-inc</B></P>
+<P CLASS="recuo-do-corpo-de-texto">usado para incluir campos no
+arquivo de entrada.</P>
+<P STYLE="margin-bottom: 0cm">As op&ccedil;&otilde;es podem ser:</P>
+<P STYLE="margin-bottom: 0cm"><B>-d[n]</B></P>
+<P CLASS="recuo-do-corpo-de-texto">devolve, na sa&iacute;da padr&atilde;o,
+o nome de todas as disciplinas no &lt;arquivo&gt;, uma por linha. Se
+passado tamb&eacute;m um par&acirc;metro n, fornece o nome de todas
+as disciplinas do per&iacute;odo n. No <B>modo xml</B>, devolve um
+arquivo XML, na sa&iacute;da padr&atilde;o, com todos os campos das
+disciplinas pedidas. 
+</P>
+<P STYLE="margin-bottom: 0cm"><B>-D &lt;c&oacute;digo da disciplina&gt;</B></P>
+<P CLASS="recuo-do-corpo-de-texto">devolve, na sa&iacute;da padr&atilde;o,
+o nome da disciplina cujo c&oacute;digo &eacute; fornecido. No <B>modo
+del</B>, fornece na sa&iacute;da padr&atilde;o o arquivo de entrada
+XML sem a sub-&aacute;rvore da disciplina. No <B>modo inc</B>,
+devolve um arquivo XML, na sa&iacute;da padr&atilde;o, incluindo a
+sub-&aacute;rvore da disciplina fornecida por um arquivo de nome
+<B>&lt;c&oacute;digo_da_disciplina&gt;.xml  (ex. FEN123-4.xml).</B></P>
+<P STYLE="margin-bottom: 0cm"><B>-c[n]</B></P>
+<P CLASS="recuo-do-corpo-de-texto">devolve, na sa&iacute;da padr&atilde;o,
+o c&oacute;digo de todas as disciplinas no &lt;arquivo&gt;, um por
+linha. Se passado tamb&eacute;m um par&acirc;metro n, fornece o
+c&oacute;digo de todas as disciplinas do per&iacute;odo n. No <B>modo
+xml</B>, devolve um arquivo XML, na sa&iacute;da padr&atilde;o, com
+todos os campos das disciplinas pedidas. 
+</P>
+<P STYLE="margin-bottom: 0cm"><B>-C &rdquo;nome da disciplina&rdquo; </B>
+</P>
+<P CLASS="recuo-do-corpo-de-texto">devolve, na sa&iacute;da padr&atilde;o,
+o c&oacute;digo da disciplina cujo nome &eacute; fornecido entre
+aspas. No <B>modo del</B>, fornece na sa&iacute;da padr&atilde;o o
+arquivo de entrada XML sem a sub-&aacute;rvore da disciplina.</P>
+<P STYLE="margin-bottom: 0cm"><B>-a &rdquo;nome da disciplina&rdquo;</B></P>
+<P CLASS="recuo-do-corpo-de-texto">devolve, na sa&iacute;da padr&atilde;o,
+a abreviatura da disciplina cujo nome &eacute; fornecido entre aspas.</P>
+<P STYLE="margin-bottom: 0cm"><B>-A &lt;c&oacute;digo da disciplina&gt;</B></P>
+<P CLASS="recuo-do-corpo-de-texto">devolve, na sa&iacute;da padr&atilde;o,
+a abreviatura da disciplina cujo c&oacute;digo &eacute; fornecido.</P>
+<P STYLE="margin-bottom: 0cm"><B>-t c&oacute;digo</B></P>
+<P CLASS="recuo-do-corpo-de-texto">devolve, na sa&iacute;da padr&atilde;o,
+o n&uacute;mero das turmas da disciplina com o c&oacute;digo
+fornecido, um por linha. No modo xml, devolve um arquivo XML, na
+sa&iacute;da padr&atilde;o, com todos os campos da disciplina pedida.</P>
+<P STYLE="margin-bottom: 0cm"><B>-p[t] c&oacute;digo </B>
+</P>
+<P CLASS="recuo-do-corpo-de-texto">devolve, na sa&iacute;da padr&atilde;o,
+o nome dos professores da disciplina com o c&oacute;digo fornecido,
+um por linha. Se fornecido tamb&eacute;m um par&acirc;metro t,
+fornece o nome dos professores da turma t da disciplina com o c&oacute;digo
+fornecido. No modo xml, fornece a sub-&aacute;rvore da tag
+&lt;professor&gt; na disciplina pedida.</P>
+<P STYLE="margin-bottom: 0cm"><B>-h c&oacute;digo </B>
+</P>
+<P CLASS="recuo-do-corpo-de-texto">devolve, na sa&iacute;da padr&atilde;o,
+o hor&aacute;rio da disciplina cujo c&oacute;digo &eacute; fornecido,
+um dia por linha, com o diadasemana separado do tempo por um espa&ccedil;o
+em branco. No modo xml, fornece a sub-&aacute;rvore da tag &lt;horario&gt;.</P>
+<P CLASS="recuo-do-corpo-de-texto">Obs.:  O programa deve
+obrigatoriamente carregar o arquivo original XML em mem&oacute;ria,
+usando uma lista encadeada onde cada n&oacute; da lista corresponde a
+uma disciplina.  Todo o processamento deve ser feito nesta lista e
+depois o resultado deve ser mostrado na tela.</P>
+<P CLASS="recuo-do-corpo-de-texto">Entrega: 12 de julho.</P>
+<P CLASS="recuo-do-corpo-de-texto">Segunda Prova: 12 de julho. A
+prova ser&aacute; totalmente baseada no trabalho. 
+</P>
+<P CLASS="recuo-do-corpo-de-texto">Prova Final: 14 de julho.</P>
+</BODY>
+</HTML>

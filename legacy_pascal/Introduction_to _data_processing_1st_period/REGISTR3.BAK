@@ -1,0 +1,41 @@
+Program Um_pulo_a_mais;
+type
+Bimestre=array [1..4] of real;
+cod_aluno=record
+nome:string;
+nota:Bimestre;
+end;
+var
+aluno: array [1..8] of cod_aluno;
+I,j:byte;
+begin
+writeln ('NOTAS BIMESTRAIS');
+writeln;
+for j:=1 to 8 do
+begin
+write('Informe o nome do aluno...:'); readln(aluno[j].nome);
+writeln;
+for I:=1 to 4 do
+begin
+write('Informe a nota do',I:2,'o.bimestre...:');
+readln(aluno[j].nota[I]);
+end;
+end;
+writeln;
+writeln('1o.B':2,'2o.B':7,'3o.B':7,'4o.B':7,'Nome:':40);
+writeln;
+for j:=1 to 8 do
+begin
+I:=1;
+write(aluno[j].nota[I]:3:2);
+for I:=2 to 4 do
+begin
+write(aluno[j].nota[I]:7:2);
+end;
+write(aluno[j].nome:50);
+writeln;
+end;
+writeln;
+writeln('Tecle <ENTER> para encerrar:');
+readln;
+end.

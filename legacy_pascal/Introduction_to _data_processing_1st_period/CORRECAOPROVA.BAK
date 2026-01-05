@@ -1,0 +1,31 @@
+Program notas;
+uses crt;
+type
+cod_aluno=record
+nome:string [30];
+nota:array[1..4] of real;
+end;
+var
+aluno:array[1..10] of cod_aluno;
+i,j:integer;
+begin
+writeln('Programa de notas bimestrais');
+for i:=1 to 10 do
+begin
+write('Escreva o nome do aluno: ');readln(aluno[i].nome);
+for j:=1 to 4 do
+begin
+write('Escreva a',j,'a.nota do aluno');readln(aluno[i].nota[j]);
+end;
+end;
+for i:=1 to 10 do
+begin
+writeln('Aluno: ',aluno[i].nome);
+for j:=1 to 4 do
+begin
+writeln(j,'a.nota: ',aluno[i].nota[j]);
+end;
+writeln;
+end;
+delay(6000);
+end.

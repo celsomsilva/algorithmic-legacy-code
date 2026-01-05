@@ -1,0 +1,1 @@
+{5)Crie uma lista com todas as palavras de um texto e sua frequência de ocorrência. Campos: palavra, frequencia,prox}

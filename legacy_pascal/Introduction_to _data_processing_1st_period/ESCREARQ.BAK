@@ -1,0 +1,31 @@
+program Escrever;
+uses crt;
+var arquivopar:file of integer;a,b,c,d,e,f,g:integer;
+begin
+g:=2573;
+assign (arquivopar,'c:\windows\desktop\arqpar.txt');
+reset(arquivopar);
+for a:=48 to 57 do
+begin
+for b:=48 to 57 do
+begin
+for c:=48 to 57 do
+begin
+for d:=48 to 57 do
+begin
+for e:=48 to 57 do
+begin
+f:=48;
+while f<57 do
+begin
+write(arquivopar,a,b,c,d,e,f,g);
+f:=f+2;
+end;
+end;
+end;
+end;
+end;
+end;
+close (arquivopar);
+end.
+

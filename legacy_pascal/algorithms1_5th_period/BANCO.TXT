@@ -1,0 +1,6 @@
+Lula 1200 230 57
+Bush 510 690 61
+Sadam 102 298 72
+Fidel 100 90 79
+Lagos 40 50 63
+Fernando 830 770 59

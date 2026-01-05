@@ -1,0 +1,8 @@
+program criar;
+uses crt;
+var arquivopar:file of longint;
+begin
+assign(arquivopar,'c:\windows\desktop\arqpar.txt');
+rewrite(arquivopar);
+close(arquivopar);
+end.

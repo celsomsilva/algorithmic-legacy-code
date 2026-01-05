@@ -1,0 +1,18 @@
+Program Soma;
+uses crt;
+var
+a,b,s:real;
+begin
+a:=1;
+b:=1;
+s:=0;
+while(a<=99) do
+begin
+s:=(a/b)+s;
+a:=a+2;
+b:=b+1;
+end;
+writeln('O valor da soma ‚: ',s:13:10);
+writeln('Tecle <ENTER> para encerrar');
+readln;
+end.

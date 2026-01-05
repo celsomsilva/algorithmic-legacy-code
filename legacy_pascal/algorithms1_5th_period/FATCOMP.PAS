@@ -1,0 +1,21 @@
+Program Fatorialcompleto;
+uses crt;
+var i,n,fat:longint;
+begin
+i:=1;
+fat:=1;
+writeln('Entre com o numero');
+readln(n);
+while (i<=n) do
+begin
+fat:=fat*i;
+i:=i+1;
+end;
+if (n>0) then
+writeln(fat)
+else
+writeln('Numero invalido');
+delay(6000);
+end.
+
+

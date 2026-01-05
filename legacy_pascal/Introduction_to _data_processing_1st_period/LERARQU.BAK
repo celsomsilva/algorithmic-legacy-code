@@ -1,0 +1,15 @@
+program ler;
+uses crt;
+var arquivopar:file of real;numero:real;
+begin
+textbackground(190);
+assign(arquivopar,'c:\windows\desktop\arqpar.txt');
+reset(arquivopar);
+while not eof(arquivopar) do
+begin
+read(arquivopar,numero);
+write(numero:10:0);
+end;
+close(arquivopar);
+readkey;
+end.

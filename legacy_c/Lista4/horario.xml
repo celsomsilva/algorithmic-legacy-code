@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="horario.xsl"?>
+
+<horarios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/home/araujo/Meus%20Documentos/UERJ/desc/horario.xsd">
+    <disciplina>
+        <nome>Eletrônica 1</nome>
+        <codigo>FEN509-2</codigo>
+        <abreviatura>Eletrônica 1</abreviatura>
+        <periodo>5</periodo>
+        <turma numero="5">
+            <professor>
+                <nome>Evandro Mendes Da Silva</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>T1T2</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>sex</diadasemana>
+                        <tempo>M5M6T1T2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c1</cor>
+        </turma>
+        <turma numero="6">
+            <professor>
+                <nome>Luiz Biondi</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>M5M6</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c2</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Circuitos Elétricos 1</nome>
+        <codigo>FEN405-4</codigo>
+        <abreviatura>Circ.Elétr.1</abreviatura>
+        <periodo>5</periodo>
+        <turma numero="5">
+            <professor>
+                <nome>Nival Nunes De Almeida</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>seg</diadasemana>
+                        <tempo>M3M4</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>sex</diadasemana>
+                        <tempo>M3M4</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <professor>
+                <nome>Luiz Augusto Machado Andrea</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>sab</diadasemana>
+                        <tempo>M1M2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c3</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Conversão Eletromecânica de Energia III</nome>
+        <codigo>FEN 448-8</codigo>
+        <abreviatura>CEME III</abreviatura>
+        <periodo>5</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Márcio G. Sereno</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>M1M2</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>M1M2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <professor>
+                <nome>Ivone Telles</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>sab</diadasemana>
+                        <tempo>M1M2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c4</cor>
+        </turma>
+        <turma numero="2">
+            <professor>
+                <nome>Márcio G. Sereno</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>M1M2</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>M1M2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <professor>
+                <nome>Ivone Telles</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>sab</diadasemana>
+                        <tempo>M3M4</tempo>
+                    </dia>
+ 
+                </horario>
+            </professor>
+            <cor>c5</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Algoritmos Computacionais</nome>
+        <codigo>FEN 625-6</codigo>
+        <abreviatura>Alg.Comp.</abreviatura>
+        <periodo>5</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Marco Aurélio</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>M5M6T1</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>M5M6</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c7</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Eletromagnetismo III</nome>
+        <codigo>FEN 447-9</codigo>
+        <abreviatura>Eletromag. III</abreviatura>
+        <periodo>5</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Evandro Gondim</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>seg</diadasemana>
+                        <tempo>M5M6T1</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>sex</diadasemana>
+                        <tempo>M3M4</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c8</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Modelos Matemáticos Aplicados à  Engenharia Elétrica III</nome>
+        <codigo>FEN 544-4</codigo>
+        <abreviatura>Mod.Mat.III</abreviatura>
+        <periodo>5</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Helio da Motta</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>M3M4</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>M2M3M4</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c6</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Técnicas Digitais 1</nome>
+        <codigo>FEN 537-6</codigo>
+        <abreviatura>Tec.Dig.1</abreviatura>
+        <periodo>6</periodo>
+        <turma numero="3">
+            <professor>
+                <nome>Raul feitosa</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>sex</diadasemana>
+                        <tempo>T1T2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <professor>
+                <nome>Henrique Goldfeld</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>sex</diadasemana>
+                        <tempo>T3T4T5</tempo>
+                    </dia>
+                </horario>
+            </professor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Circuitos Elétricos IV</nome>
+        <codigo>FEN 450-2</codigo>
+        <abreviatura>Circ.Elétr.IV</abreviatura>
+        <periodo>6</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>S/ Professor</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>N1N2</tempo>
+                    </dia>
+                      <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>N1N2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <professor>
+                <nome>Leny Medeiros</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>T5T6</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c3</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Eletrônica II</nome>
+        <codigo>FEN 510-7</codigo>
+        <abreviatura>Eletrônica II</abreviatura>
+        <periodo>6</periodo>
+        <turma numero="5">
+            <professor>
+                <nome>S/Professor</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>T1T2</tempo>
+                    </dia>
+                     <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>T3T4</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <professor>
+                <nome>José Guimarães</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>T1T2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c4</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Segurança e Higiene do Trabalho</nome>
+        <codigo>FEN 717-2</codigo>
+        <abreviatura>Seg.Hig. do Trab</abreviatura>
+        <periodo>6</periodo>
+        <turma numero="3">
+            <professor>
+                <nome>Valéria B. Gomes</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>T3T4</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c5</cor>
+        </turma>
+        <turma numero="1">
+            <professor>
+                <nome>Ubirajara Mattos</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>M4M5</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c5</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Estrutura de Informação I</nome>
+        <codigo>FEN 626-6</codigo>
+        <abreviatura>Estrut. de Inform. I</abreviatura>
+        <periodo>6</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Flávio Joaquim</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>seg</diadasemana>
+                        <tempo>T3T4</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>T3T4</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c2</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Materiais Elétricos e Magnéticos</nome>
+        <codigo>FEN 449-7</codigo>
+        <abreviatura>Mat. Elétr. e Mag.</abreviatura>
+        <periodo>6</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Luiz Pecorelli</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>seg</diadasemana>
+                        <tempo>T5T6N1N2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c6</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Análise de Sistemas Físicos</nome>
+        <codigo>FEN 451-0</codigo>
+        <abreviatura>Anal. de Sist. Fís.</abreviatura>
+        <periodo>6</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>S/Professor</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>T5T6N1</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>sex</diadasemana>
+                        <tempo>N1N2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c7</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Análise de Algoritmos</nome>
+        <codigo>FEN 627-4</codigo>
+        <abreviatura>Anal. de Algor.</abreviatura>
+        <periodo>7</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>S/ Professor</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>M5M6</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>M5M6</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c1</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Fundamentos de Computadores Digitais I</nome>
+        <codigo>FEN 628-3</codigo>
+        <abreviatura>Fund. de Comp. Dig. I</abreviatura>
+        <periodo>7</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Henrique Goldfeld</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>seg</diadasemana>
+                        <tempo>M3M4M5</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>M1M2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c2</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Administração Aplicada à  Engenharia III</nome>
+        <codigo>FAF 336-8</codigo>
+        <abreviatura>Adm. Aplic. Eng. III</abreviatura>
+        <periodo>7</periodo>
+         <turma numero="1">
+            <professor>
+                <nome>Neyde M.F.T. Silva</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>M3M4</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>M3M4</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c3</cor>
+        </turma>
+        <turma numero="2">
+            <professor>
+                <nome>Neyde M.F.T. Silva</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>T1T2</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>T1T2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c3</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Técnicas Digitais II</nome>
+        <codigo>FEN 638-5</codigo>
+        <abreviatura>Téc. Dig. II</abreviatura>
+        <periodo>7</periodo>
+        <turma numero="3">
+            <professor>
+                <nome>Marcelo Rubinstein</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>M3M4</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>M4M5M6</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c4</cor>
+        </turma>
+        <turma numero="4">
+            <professor>
+                <nome>Marcelo Rubinstein</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>M4M5M6</tempo>
+                    </dia>
+                </horario>
+            </professor>
+           <professor>
+            <nome>Lisando Lovisolo</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>sex</diadasemana>
+                        <tempo>M5M6</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c4</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Princípios de Telecomunicações III</nome>
+        <codigo>FEN 545-3</codigo>
+        <abreviatura>Princ. Telec. III</abreviatura>
+        <periodo>7</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>s/Professor</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>M1M2M3</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>M3M4</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c5</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Controle e Servomecanismos III</nome>
+        <codigo>FEN 546-3</codigo>
+        <abreviatura>Contr. Serv. III</abreviatura>
+        <periodo>7</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Paulo C. Almeida</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>seg</diadasemana>
+                        <tempo>M1M2</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>sex</diadasemana>
+                        <tempo>M1M2M3</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c6</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Instalação de Ambientes Computacionais</nome>
+        <codigo>FEN 629-2</codigo>
+        <abreviatura>Inst. Amb. Comp.</abreviatura>
+        <periodo>7</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Paulo Roberto Augusto</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>sab</diadasemana>
+                        <tempo>M1M2M3</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c7</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Engenharia de Sistemas A</nome>
+        <codigo>FEN 634-1</codigo>
+        <abreviatura>Eng. Sist. A</abreviatura>
+        <periodo>8</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Pedro Paulo Vasconcelos</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>sab</diadasemana>
+                        <tempo>M1M2M3M4</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c1</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Introdução à  Economia III</nome>
+        <codigo>FEN 240-1</codigo>
+        <abreviatura>Int. Econ. III</abreviatura>
+        <periodo>8</periodo>
+                <turma numero="1">
+            <professor>
+                <nome>José W. Rossi</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>seg</diadasemana>
+                        <tempo>M3M4</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>M3M4</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c2</cor>
+        </turma>
+        <turma numero="2">
+            <professor>
+                <nome>Manuel S. Cal</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>seg</diadasemana>
+                        <tempo>T1T2</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>T1T2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c2</cor>
+        </turma>
+        <turma numero="3">
+            <professor>
+                <nome>Paulo H. Costa</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>seg</diadasemana>
+                        <tempo>N3N4</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>N5N6</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c2</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Laboratório de Programação I</nome>
+        <codigo>FEN 631-5</codigo>
+        <abreviatura>Lab. Prog. I</abreviatura>
+        <periodo>8</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>João Araujo</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>T5T6</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>T5T6</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c3</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Arquitetura de Computadores I</nome>
+        <codigo>FEN 632-4</codigo>
+        <abreviatura>Arq. Comp. I</abreviatura>
+        <periodo>8</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Raul Q. feitosa</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>T3T4</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>sex</diadasemana>
+                        <tempo>T3T4T5</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c4</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Características das Linguagens de Programação I</nome>
+        <codigo>FEN 630-7</codigo>
+        <abreviatura>Caract. Ling. Prog. I</abreviatura>
+        <periodo>8</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Oscar L. M. de Farias</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>T3T4</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>T3T4</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c5</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Microcomputadores e Microprocessadores I</nome>
+        <codigo>FEN 633-3</codigo>
+        <abreviatura>Microc. Microp. I</abreviatura>
+        <periodo>8</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Henrique Goldfeld</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>seg</diadasemana>
+                        <tempo>T3T4T5</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>T5T6</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c6</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Teleprocessamento e Redes de Computadores</nome>
+        <codigo>FEN 641-0</codigo>
+        <abreviatura>Telep. e Redes de Comp.</abreviatura>
+        <periodo>9</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Marley Vellasco</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>M3M4M5</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>M4M5</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c1</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Arquitetura de Sistemas Operacionais</nome>
+        <codigo>FEN 640-2</codigo>
+        <abreviatura>Arq. Sist. Oper.</abreviatura>
+        <periodo>9</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Cristiana Bentes</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>M6T1</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>M5M6</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c2</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Engenharia de Sistemas B</nome>
+        <codigo>FEN 635-0</codigo>
+        <abreviatura>Eng. Sist. B</abreviatura>
+        <periodo>9</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Arnaldo V.R.F.</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>M1M2</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>M1M2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c3</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Teoria de Compiladores</nome>
+        <codigo>FEN 637-8</codigo>
+        <abreviatura>Teo. Compil.</abreviatura>
+        <periodo>9</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Jorge Valério</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>M1M2M3</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>M3M4</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c4</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Estágio Supervisionado XI-A</nome>
+        <codigo>FEN 646-5</codigo>
+        <abreviatura>Est. Sup. XI-A</abreviatura>
+        <periodo>9</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Arnaldo V.R.F.</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>seg</diadasemana>
+                        <tempo>M1M2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c5</cor>
+        </turma>
+        <turma numero="2">
+            <professor>
+                <nome>Arnaldo V.R.F.</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>sex</diadasemana>
+                        <tempo>M1M2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c5</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Projeto de Graduação XI-A</nome>
+        <codigo>FEN 638-7</codigo>
+        <abreviatura>Proj. Grad. XI-A</abreviatura>
+        <periodo>9</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Arnaldo V.R.F.</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>seg</diadasemana>
+                        <tempo>M3M4M5</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c6</cor>
+        </turma>
+       <turma numero="2">
+            <professor>
+                <nome>Arnaldo V.R.F.</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>sex</diadasemana>
+                        <tempo>M3M4M5</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c6</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Projeto de Ambiente Computacional</nome>
+        <codigo>FEN 642-9</codigo>
+        <abreviatura>Proj. Amb. Comp.</abreviatura>
+        <periodo>9</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Paulo Roberto Augusto</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>sab</diadasemana>
+                        <tempo>M4M5M6</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c7</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Tópicos Especiais em Engenharia de Sistemas e Computação A</nome>
+        <codigo>FEN 643-8</codigo>
+        <abreviatura>Tóp. Esp. Eng. Sist. Comp. A</abreviatura>
+        <periodo>10</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Marco Aurélio</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>ter</diadasemana>
+                        <tempo>T2T3T4T5</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c1</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Tópicos Especiais em Engenharia de Sistemas e Computação B</nome>
+        <codigo>FEN 644-6</codigo>
+        <abreviatura>Tóp. Esp. Eng. Sist. Comp. B</abreviatura>
+        <periodo>10</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Bruno Feijó</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>seg</diadasemana>
+                        <tempo>T1T2</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>T5T6</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c2</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Tópicos Especiais em Engenharia de Sistemas e Computação C</nome>
+        <codigo>FEN 645-5</codigo>
+        <abreviatura>Tóp. Esp. Eng. Sist. Comp. C</abreviatura>
+        <periodo>10</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Marley Vellasco</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>N1N2</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>sex</diadasemana>
+                        <tempo>T6N1</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c3</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Controle de Processos por Computador</nome>
+        <codigo>FEN 647-3</codigo>
+        <abreviatura>Cont. Proc. Comp.</abreviatura>
+        <periodo>10</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Luiza M. Mourelle</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>seg</diadasemana>
+                        <tempo>T3T4T5</tempo>
+                    </dia>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>T3T4</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c4</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Engenharia e Sociedade II</nome>
+        <codigo>FEN 207-8</codigo>
+        <abreviatura>Eng. Soc. II</abreviatura>
+        <periodo>10</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Luiz Chiganer</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>qui</diadasemana>
+                        <tempo>T1T2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c5</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Projeto de Graduação XI-B</nome>
+        <codigo>FEN 639-6</codigo>
+        <abreviatura>Proj. Grad. XI-B</abreviatura>
+        <periodo>10</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Bruno Feijó</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>sex</diadasemana>
+                        <tempo>T6N1N2</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c6</cor>
+        </turma>
+        <turma numero="2">
+            <professor>
+                <nome>Paulo Roberto Augusto</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>sab</diadasemana>
+                        <tempo>T1T2T3</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c6</cor>
+        </turma>
+        <turma numero="3">
+            <professor>
+                <nome>S/ Professor</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>qua</diadasemana>
+                        <tempo>T3T4T5</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c6</cor>
+        </turma>
+    </disciplina>
+    <disciplina>
+        <nome>Engenharia de Sistemas C</nome>
+        <codigo>FEN 636-0</codigo>
+        <abreviatura>Eng. Sist. C</abreviatura>
+        <periodo>10</periodo>
+        <turma numero="1">
+            <professor>
+                <nome>Pedro Paulo Vasconcelos</nome>
+                <horario>
+                    <dia>
+                        <diadasemana>sab</diadasemana>
+                        <tempo>M5M6</tempo>
+                    </dia>
+                     <dia>
+                        <diadasemana>sex</diadasemana>
+                        <tempo>N2N3</tempo>
+                    </dia>
+                </horario>
+            </professor>
+            <cor>c7</cor>
+        </turma>
+    </disciplina>
+</horarios>
