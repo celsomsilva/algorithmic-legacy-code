@@ -46,6 +46,7 @@ Purpose:
 Modern benchmark and reimplementation projects:
 - Algorithmic Benchmark Suite (R): https://github.com/celsomsilva/algorithmic-benchmark-suite-R
 - Algorithmic Benchmark Suite (Java): https://github.com/celsomsilva/algorithmic-benchmark-suite-java
+- Algorithmic Benchmark Suite (Rust): https://github.com/celsomsilva/algorithmic-benchmark-suite-rust
 
 This keeps **authenticity** and **modern clarity** side by side.
 
