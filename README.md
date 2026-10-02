@@ -25,7 +25,7 @@ Several files in the legacy directories have:
 * multiple versions of the same algorithm (loop, recursion, `goto`…)
 * minimal comments
 
-I keep them untouched on purpose — they’re part of the story.
+I keep them untouched on purpose - they’re part of the story.
 
 
 ---
@@ -33,8 +33,8 @@ I keep them untouched on purpose — they’re part of the story.
 
 ## How the Legacy Folders Work
 
-* **legacy directories** — all original Pascal/C files exactly as they were
-* cleaned directories — a small subset of selected files, curated and cleaned for readability.
+* **legacy directories** - all original Pascal/C files exactly as they were
+* cleaned directories - a small subset of selected files, curated and cleaned for readability.
 
 
 Purpose:
@@ -44,9 +44,9 @@ Purpose:
 
 
 Modern benchmark and reimplementation projects:
-- Algorithmic Benchmark Suite (R): https://github.com/celsomsilva/algorithmic-benchmark-suite-R
-- Algorithmic Benchmark Suite (Java): https://github.com/celsomsilva/algorithmic-benchmark-suite-java
-- Algorithmic Benchmark Suite (Rust): https://github.com/celsomsilva/algorithmic-benchmark-suite-rust
+- [Algorithmic Benchmark Suite (R)](https://github.com/celsomsilva/algorithmic-benchmark-suite-R)
+- [Algorithmic Benchmark Suite (Java)](https://github.com/celsomsilva/algorithmic-benchmark-suite-java)
+- [Algorithmic Benchmark Suite (Rust)](https://github.com/celsomsilva/algorithmic-benchmark-suite-rust)
 
 This keeps **authenticity** and **modern clarity** side by side.
 
